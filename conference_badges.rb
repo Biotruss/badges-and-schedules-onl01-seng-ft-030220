@@ -19,14 +19,12 @@ def assign_rooms(name)
 end
 
 def printer(attendees)
-  batch = []
-  name.each { |badge| batch << "Hello, my name is #{badge}."}
-  batch
   
   welcome = []
   room = 1
     name.each do |person|
-      welcome << "Hello, #{person}! You'll be assigned to room #{room}!"
+      "Hello, my name is #{person}."}
+      "Hello, #{person}! You'll be assigned to room #{room}!"
       room += 1
     end
   welcome
