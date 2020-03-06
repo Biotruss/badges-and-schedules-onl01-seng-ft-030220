@@ -22,7 +22,7 @@ def printer(attendees)
   
   welcome = []
   room = 1
-    name.each do |person|
+    attendees.each do |person|
       "Hello, my name is #{person}."
       "Hello, #{person}! You'll be assigned to room #{room}!"
       room += 1
